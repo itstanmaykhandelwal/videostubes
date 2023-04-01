@@ -11,27 +11,39 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import ChildCareIcon from '@mui/icons-material/ChildCare';
+import SportsCricketIcon from '@mui/icons-material/SportsCricket';
+import SendToMobileIcon from '@mui/icons-material/SendToMobile';
+import RamenDiningIcon from '@mui/icons-material/RamenDining';
+import CameraFrontIcon from '@mui/icons-material/CameraFront';
+import HikingIcon from '@mui/icons-material/Hiking';
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
+//   { name: 'JS Mastery', icon: <CodeIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
+//   { name: 'ReactJS', icon: <CodeIcon />, },
+//   { name: 'NextJS', icon: <CodeIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
+  { name: 'IPL', icon: <SportsCricketIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
   { name: 'Movie', icon: <OndemandVideoIcon />, },
+  { name: 'Vlogging', icon: <CameraFrontIcon />, },
+  { name: 'Recipe', icon: <RamenDiningIcon />, },
+  { name: 'Tech', icon: <SendToMobileIcon />, },
   { name: 'Gaming', icon: <SportsEsportsIcon />, },
+  { name: 'Travelling', icon: <HikingIcon />, },
   { name: 'Live', icon: <LiveTvIcon />, },
-  { name: 'Sport', icon: <FitnessCenterIcon />, },
+  { name: 'Sports', icon: <FitnessCenterIcon />, },
   { name: 'Fashion', icon: <CheckroomIcon />, },
   { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
   { name: 'Comedy', icon: <TheaterComedyIcon />, },
   { name: 'Gym', icon: <FitnessCenterIcon />, },
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'Cartoons', icon: <ChildCareIcon  />, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
